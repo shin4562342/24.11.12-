@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 7% 7% 7% 7%;
+  grid-template-columns: 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 7% 7% 7% 7%;
+  width: 100%;
+  height: 100vh;
+  grid-template-areas: 
+   "a a a a b b b b b b b b c c d d"
+   "a a a a b b b b b b b b c c d d"
+   "a a a a e e e e f f f f c c d d"
+   "a a a a e e e e f f f f c c d d"
+   "a a a a e e e e f f f f c c h g"
+   "i i j j j j j j f f f f c c h g"
+   "i i j j j j j j f f f f c c h g"
+   "i i j j j j j j f f f f c c h g"
+   "i i q q q k k k f f f f c c h g"
+   "i i q q q k k k f f f f c c h g"
+   "i i q q q k k k f f f f c c h g"
+   "i i q q q k k k f f f f l l l l"
+   "m m m m m m m m n n n n l l l l"
+   "m m m m m m m m n n n n l l l l"
+   "m m m m m m m m n n n n o o p p"
+   "m m m m m m m m n n n n o o p p";
+}
+
+.container div {
+  overflow: hidden; 
+}
+
+.a {
+  grid-area: a;
+  background-color: white;
+}
+.b {
+  grid-area: b;
+  background-color: white;
+}
+.c {
+  grid-area: c;
+  background-color: white;
+}
+.d {
+  grid-area: d;
+  background-color: white;
+}
+.e {
+  grid-area: e;
+  background-color: white;
+}
+
+.f {
+  grid-area: f;
+  background-color: white;
+}
+.g {
+  grid-area: g;
+  background-color: white;
+}
+.h {
+  grid-area: h;
+  background-color: white;
+}
+.i {
+  grid-area: i;
+  background-color: white;
+}
+.j {
+  grid-area: j;
+  background-color: white;
+}
+.k {
+  grid-area: k;
+  background-color: white;
+}
+.l {
+  grid-area: l;
+  background-color: white;
+}
+.m {
+  grid-area: m;
+  background-color: white;
+}
+.n {
+  grid-area: n;
+  background-color: white;
+}
+.o {
+  grid-area: o;
+  background-color: white;
+}
+.p {
+  grid-area: p;
+  background-color: white;
+}
+.q {
+  grid-area: q;
+  background-color: white;
+}
+
+.a img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.a div{
+  height: 100%;
+  overflow: hidden;
+}
+
+.a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.b img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.b div{
+  height: 100%;
+  overflow: hidden;
+}
+.b img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.c div{
+  height: 100%;
+  overflow: hidden;
+}
+.c img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.d img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.d div{
+  height: 100%;
+  overflow: hidden;
+}
+.d img {
+  max-width: auto;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.e img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.e div{
+  height: 100%;
+  overflow: hidden;
+}
+.e img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.f img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.f div{
+  height: 100%;
+  overflow: hidden;
+}
+.f img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.g img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.g div{
+  height: 100%;
+  overflow: hidden;
+}
+.g img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.h img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.h div{
+  height: 100%;
+  overflow: hidden;
+}
+.h img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.i img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.i div{
+  height: 100%;
+  overflow: hidden;
+}
+.i img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.j img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.j div{
+  height: 100%;
+  overflow: hidden;
+}
+.j img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.k img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.k div{
+  height: 100%;
+  overflow: hidden;
+}
+.k img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.l img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.l div{
+  height: 100%;
+  overflow: hidden;
+}
+.l img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.m img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.m div{
+  height: 100%;
+  overflow: hidden;
+}
+.m img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.n img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.n div{
+  height: 100%;
+  overflow: hidden;
+}
+.n img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.o img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.o div{
+  height: 100%;
+  overflow: hidden;
+}
+.o img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.p img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.p div{
+  height: 100%;
+  overflow: hidden;
+}
+.p img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.q img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.q div{
+  height: 100%;
+  overflow: hidden;
+}
+.q img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
